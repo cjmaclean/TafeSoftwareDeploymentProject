@@ -9,6 +9,8 @@ copy MovieSearchApp.jar C:\MovieSearchApp\AppFiles\
 copy uninstall.bat C:\MovieSearchApp\
 
 cls
+@echo You need to make sure the database is installed.
+@echo:
 @echo When you are ready, the installer will open the connection configuration file, ready for you to edit.
 @pause
 start notepad C:\MovieSearchApp\AppFiles\config.properties
